@@ -1,20 +1,35 @@
-/* Общие стили для страницы */
+/* Основной стиль */
 body {
     font-family: Arial, sans-serif;
     background-color: #fafafa;
-    padding-top: 50px; /* Добавляем отступ для контента, чтобы он не перекрывался navbar */
 }
 
-.navbar {
-    margin-bottom: 20px;
+/* Навигация */
+.navbar-collapse {
+    background-color: #f8f8f8;
 }
 
-/* Стили для длинного раздела */
+.navbar-nav li a {
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+}
+
+/* Скрываем пункты меню на больших экранах */
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+}
+
+/* Контейнер с контентом */
 .container {
     margin-top: 20px;
 }
 
-.container p {
-    font-size: 18px;
-    color: #333;
+.container .row div {
+    text-align: center;
+    line-height: 200px; /* Для выравнивания текста по центру */
 }
