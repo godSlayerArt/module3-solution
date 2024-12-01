@@ -1,16 +1,17 @@
-/* Пример стилей для фона */
+/* Общие стили для страницы */
 body {
     font-family: Arial, sans-serif;
     background-color: #fafafa;
-}
-
-/* Настройки для длинного раздела */
-.container {
-    margin-top: 20px;
+    padding-top: 50px; /* Добавляем отступ для контента, чтобы он не перекрывался navbar */
 }
 
 .navbar {
     margin-bottom: 20px;
+}
+
+/* Стили для длинного раздела */
+.container {
+    margin-top: 20px;
 }
 
 .container p {

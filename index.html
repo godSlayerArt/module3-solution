@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food, LLC Menu</title>
-    <!-- Подключение Bootstrap -->
+    <!-- Подключение Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Подключение пользовательских стилей -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Подключение пользовательских стилей -->
 </head>
 <body>
-    <!-- Навигация -->
+    <!-- Навигационная панель -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Food, LLC</a>
@@ -34,12 +33,43 @@
         <h1 class="text-center">Our Menu</h1>
     </div>
 
-    <!-- Длинный раздел -->
+    <!-- Длинный раздел с контентом -->
     <div class="container" style="height: 1000px; background-color: #f0f0f0;">
-        <p>Здесь будет контент страницы. Например, описание меню, дополнительные разделы и так далее.</p>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Chicken</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Delicious fried chicken served with crispy fries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Beef</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Juicy beef steak with grilled vegetables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sushi</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Fresh sushi rolls with a variety of fillings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Подключение jQuery и Bootstrap JS -->
+    <!-- Подключение Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
